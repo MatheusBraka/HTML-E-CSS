@@ -2,8 +2,8 @@
 body {
     font-family: Helvetica;
     text-align: center;
-    color: white;
-    background-color: #333;
+    color: blck;
+    background-color: #fff;
     padding: 0;
     margin: 0;
 }
@@ -14,7 +14,7 @@ nav {
     justify-content: space-between;
     padding: 20px;
     align-items: center;
-    border-bottom: 1px solid #666;
+    border-bottom: 1px solid #eee;
 }
 
 /* display adaptavel
