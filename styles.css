@@ -1,0 +1,60 @@
+/* Geral */
+body {
+    font-family: Helvetica;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos aplicados na seção nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid #666;
+}
+
+/* display adaptavel
+  */
+nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+/* tamanho da margem 12 pixels  */
+ul li {
+    margin-right: 12px;
+}
+
+/* sem decoração do texto Cor Branca  */
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+/* Cor da borda   */
+ul li a:hover {
+    color: rgb(15, 89, 150);
+}
+
+/* tamanho da foto principal  */ 
+h1 {
+    font-size: 32px;
+}
+
+/*  tamanho maximo da imagem */ 
+img {
+    border: 3px solid rgb(15, 194, 218);
+    height: 300px;
+}
+
+/* Tamanha da margem e padding e definir cor da borda do topo como cinza */
+footer {
+    padding: 20px; 
+    border-top: 1px solid #666;
+    margin-top: 20px;
